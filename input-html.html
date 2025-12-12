@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Muhammad Estehsan Ul Haq – Portfolio</title>
+
+<!-- Font Awesome Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<style>
+    body {
+        margin: 0;
+        font-family: "Inter", Arial, sans-serif;
+        background: #1c1c1e;
+        color: #e5e5e5;
+        overflow-x: hidden;
+    }
+
+    /* Layout container */
+    .wrapper {
+        display: flex;
+        justify-content: space-between;
+        padding: 60px 80px;
+    }
+
+    /* Gradient corner boxes */
+    .corner-top-left, .corner-bottom-right {
+        position: absolute;
+        width: 120px;
+        height: 120px;
+        border-radius: 6px;
+        background: linear-gradient(135deg, #ffea00, #8f6aff);
+        opacity: 0.25;
+    }
+    .corner-top-left { top: 0; left: 0; }
+    .corner-bottom-right { bottom: 0; right: 0; }
+
+    /* Top navigation icons */
+    .nav-icons {
+        position: absolute;
+        top: 40px;
+        right: 70px;
+        font-size: 20px;
+    }
+    .nav-icons a {
+        color: #e7e7e7;
+        margin-left: 18px;
+        transition: 0.3s;
+    }
+    .nav-icons a:hover {
+        color: #ffea00;
+    }
+
+    /* Welcome text section */
+    .left-section {
+        max-width: 50%;
+        margin-top: 80px;
+    }
+    .left-section h1 {
+        font-size: 60px;
+        font-weight: 300;
+        margin-bottom: 10px;
+    }
+    .left-section p {
+        font-size: 17px;
+        line-height: 1.7;
+        opacity: 0.9;
+        border-left: 4px solid #ffea00;
+        padding-left: 14px;
+        margin-top: 20px;
+    }
+
+    /* Projects section */
+    .right-section {
+        margin-top: 120px;
+        max-width: 35%;
+    }
+    .right-section h2 {
+        font-size: 26px;
+        font-weight: 400;
+        margin-bottom: 20px;
+        border-left: 4px solid #ffea00;
+        padding-left: 10px;
+    }
+    .right-section a {
+        display: block;
+        color: #e7e7e7;
+        margin: 12px 0;
+        text-decoration: none;
+        font-size: 17px;
+        transition: 0.3s;
+    }
+    .right-section a:hover {
+        color: #ffea00;
+        margin-left: 6px;
+    }
+
+    footer {
+        text-align: right;
+        padding: 20px 40px;
+        opacity: 0.6;
+        margin-top: 60px;
+        font-size: 14px;
+    }
+</style>
+</head>
+<body>
+
+<!-- Gradient corners -->
+<div class="corner-top-left"></div>
+<div class="corner-bottom-right"></div>
+
+<!-- Top right icons -->
+<div class="nav-icons">
+    <a href="mailto:estehsanul@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+    <a href="https://github.com/" target="_blank"><i class="fab fa-github"></i></a>
+    <a href="https://www.linkedin.com/in/muhammad-estehsan-ul-haq/" target="_blank"><i class="fab fa-linkedin"></i></a>
+</div>
+
+<!-- Main content layout -->
+<div class="wrapper">
+
+    <!-- LEFT SECTION -->
+    <div class="left-section">
+        <h1>Welcome.</h1>
+
+        <p>
+            My name is Muhammad Estehsan Ul Haq, a Computer Engineer, IT Support
+            Specialist and Front-End Developer based in Karachi, Pakistan.
+            I specialize in network support, system administration, and designing
+            modern, responsive user interfaces with React, Next.js, and TailwindCSS.
+        </p>
+
+        <p>
+            I'm passionate about building secure, optimized systems and creating
+            clean, intuitive, next-gen digital experiences with modern technologies.
+        </p>
+    </div>
+
+    <!-- RIGHT SECTION -->
+    <div class="right-section">
+        <h2>Projects</h2>
+
+        <a href="#">IT Dashboard Automation</a>
+        <a href="#">React CRM Interface</a>
+        <a href="#">Inventory Management System</a>
+        <a href="#">Network Monitoring Tool</a>
+        <a href="#">Cybersecurity Tools Collection</a>
+    </div>
+
+</div>
+
+<footer>
+    © 2025 Estehsan. All Rights Reserved.
+</footer>
+
+</body>
+</html>
